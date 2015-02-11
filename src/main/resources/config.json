@@ -1,0 +1,11 @@
+﻿{
+  "db": {
+	"driver": "com.mysql.jdbc.Driver",
+	"uri": "jdbc:mysql://10.63.2.111:3306/oceanrpms?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&allowMultiQueries=true",
+	"user": "thor",
+	"password": "admin",
+	"minConnectionsPerPartition": 1,
+	"maxConnectionsPerPartition": 3,
+	"partitionCount": 1
+  }
+}
